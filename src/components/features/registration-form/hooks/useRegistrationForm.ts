@@ -27,8 +27,6 @@ export const useRegistrationForm = () => {
       // Store user data for OTP sending
       localStorage.setItem("wynn_registration_data", JSON.stringify(data))
 
-      console.log("Form data:", data)
-
       // Navigate to OTP send page
       router.push("/otp-send")
     } catch (error) {

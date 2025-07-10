@@ -6,7 +6,7 @@ import { ContactDetailsSection } from "./components/ContactDetailsSection"
 import { TermsSection } from "./components/TermsSection"
 
 const RegistrationForm = () => {
-    const { register, handleSubmit, control, errors, isSubmitting } = useRegistrationForm()
+    const { register, handleSubmit, control, errors, isSubmitting,  } = useRegistrationForm()
 
     return (
         <div className="max-w-2xl mx-auto py-[60px] px-4 sm:px-6 lg:px-8">

@@ -28,7 +28,11 @@ const CheckboxFieldWrapper = ({
   name = 'acceptTerms',
   ...props 
 }: any) => {
-  const { control } = useForm<RegistrationFormData>()
+  const { control } = useForm<RegistrationFormData>({
+    defaultValues: {
+      acceptTerms: false
+    }
+  })
   
   return (
     <CheckboxField

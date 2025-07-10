@@ -1,5 +1,7 @@
+import Newsletter from "@/components/features/newsletter/Newsletter";
 import RegistrationForm from "@/components/features/registration-form/RegistrationForm";
 import Header from "@/components/layout/Header/Header";
+import Footer from "@/components/layout/Footer/Footer";
 
 export default function Home() {
   return (
@@ -8,7 +10,10 @@ export default function Home() {
 
       <main>
         <RegistrationForm />
+        <Newsletter />
       </main>
+
+      <Footer />
     </div>
   );
 }
